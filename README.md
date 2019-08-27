@@ -1,6 +1,6 @@
 # Leverage Lexical Knowledge for Chinese Named Entity Recognition via Collaborative Graph Network
 
-Source code for "Leverage Lexical Knowledge for Chinese Named Entity Recognition via Collaborative Graph Network". If you use this code or our results in your research, we would appreciate it if you cite our paper as following:
+Source code for "Leverage Lexical Knowledge for Chinese Named Entity Recognition via Collaborative Graph Network" in EMNLP 2019. If you use this code or our results in your research, we would appreciate it if you cite our paper as following:
 
 
 ```
