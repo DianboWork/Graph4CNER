@@ -11,7 +11,7 @@ Source code for "Leverage Lexical Knowledge for Chinese Named Entity Recognition
     year = {2019}
 }
 ```
-Requirement:
+Requirements:
 ======
 	Python: 3.7   
 	PyTorch: 1.1.0 
@@ -44,7 +44,7 @@ Character embeddings (gigaword_chn.all.a2b.uni.ite50.vec): [Google Drive](https:
 Word embeddings (sgns.merge.word): [Google Drive](https://drive.google.com/file/d/1Zh9ZCEu8_eSQ-qkYVQufQDNKPC4mtEKR/view) or
 [Baidu Pan](https://pan.baidu.com/s/1luy-GlTdqqvJ3j-A4FcIOw)
 
-Run the code：
+Usage：
 ====
 Code and Details will be updated soon.
 
