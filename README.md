@@ -46,7 +46,10 @@ Word embeddings (sgns.merge.word): [Google Drive](https://drive.google.com/file/
 
 Usage：
 ====
-Code and Details will be updated soon.
+1. Download the character embeddings and word embeddings and put them in the `data/embeddings` folder.
+2. Put your train/dev/test file directory in the 'data/dataset' folder.
+
+
 
 
 
