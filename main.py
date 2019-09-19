@@ -33,6 +33,7 @@ def data_initialization(args):
         data.build_char_pretrain_emb(args.char_embedding_path)
         data.build_gaz_pretrain_emb(args.gaz_file)
         data.fix_alphabet()
+        data.get_tag_scheme()
         save_data_setting(data, data_stored_directory)
     return data
 
