@@ -1,3 +1,3 @@
-python -m main --train TRAIN_FILE \
-		--dev DEV_FILE\
-		--test TEST_FILE \
+python -m main --train_file TRAIN_FILE \
+		--dev_file DEV_FILE\
+		--test_file TEST_FILE \
