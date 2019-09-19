@@ -56,4 +56,4 @@ Usage：
 
 Speed：
 ===
-I have optimized the code and this version is faster than the one in our paper. :muscle:
+I have optimized the code and this version is much faster than the one in our paper. :muscle:
