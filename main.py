@@ -219,6 +219,8 @@ def train(data, model, args):
 
 if __name__ == '__main__':
     args, unparsed = get_args()
+    for arg in vars(args):
+        print(arg, ":",  getattr(args, arg))
     os.environ["CUDA_VISIBLE_DEVICES"] = str(args.visible_gpu)
     seed = args.random_seed
     torch.manual_seed(seed)
