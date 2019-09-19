@@ -2,14 +2,14 @@ import numpy as np
 from tqdm import tqdm
 
 
-def normalize_word(char_list):
-    new_list = []
-    for char in char_list:
+def normalize_word(word):
+    new_word = ""
+    for char in word:
         if char.isdigit():
-            new_list.append('0')
+            new_word += '0'
         else:
-            new_list.append(char)
-    return new_list
+            new_word += char
+    return new_word
 
 
 def read_instance(input_file, gaz, char_alphabet, label_alphabet, gaz_alphabet, number_normalized, max_sent_length):
