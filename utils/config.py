@@ -52,7 +52,7 @@ learn_arg.add_argument("--optimizer", type=str, default="Adam", choices=['Adam',
 learn_arg.add_argument("--l2_penalty", type=float, default=0.00000005)
 # Misc
 misc_arg = add_argument_group('Misc')
-misc_arg.add_argument('--refresh', type=str2bool, default=True)
+misc_arg.add_argument('--refresh', type=str2bool, default=False)
 misc_arg.add_argument('--use_gpu', type=str2bool, default=True)
 misc_arg.add_argument('--visible_gpu', type=int, default=0)
 misc_arg.add_argument('--random_seed', type=int, default=1)
