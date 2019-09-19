@@ -46,9 +46,10 @@ Word embeddings (sgns.merge.word): [Google Drive](https://drive.google.com/file/
 
 Usage：
 ====
-I will update it as soon as possible
-
-
+1. Download the character embeddings and word embeddings and put them in the `data/embeddings` folder.
+2. Modify the `run_main.py` by adding your train/dev/test file directory.
+3. `sh run_main.py`. Note that the default hyperparameters may not be the optimal hyperparameters, and you need to adjust these.
+4. Enjoy it!
 
 
 
