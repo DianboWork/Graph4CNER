@@ -51,5 +51,7 @@ Usage：
 3. `sh run_main.py`. Note that the default hyperparameters may not be the optimal hyperparameters, and you need to adjust these.
 4. Enjoy it! :smile:
 
-
+Speed：
+===
+I have optimized the code and this version is faster than the one in our paper.
 
