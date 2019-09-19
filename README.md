@@ -52,7 +52,7 @@ Usage：
 
 :three: `sh run_main.py`. Note that the default hyperparameters may not be the optimal hyperparameters, and you need to adjust these.
 
-:four: Enjoy it! :smile::sweat_smile:
+:four: Enjoy it! :smile:
 
 Speed：
 ===
