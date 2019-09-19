@@ -53,5 +53,5 @@ Usage：
 
 Speed：
 ===
-I have optimized the code and this version is faster than the one in our paper.
+I have optimized the code and this version is faster than the one in our paper. :smile:
 
