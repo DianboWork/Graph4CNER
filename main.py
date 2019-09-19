@@ -209,8 +209,8 @@ def train(data, model, args):
             "Dev: time: %.2fs, speed: %.2fst/s; acc: %.4f, p: %.4f, r: %.4f, f: %.4f" % (dev_cost, speed, acc, p, r, f))
         if current_score > best_dev:
             print("Exceed previous best f score:", best_dev)
-            if not os._exists(args.param_stored_directory + args.dataset_name + "_param"):
-                os.mkdir(args.param_stored_directory + args.dataset_name + "_param")
+            if not os.path.exists(args.param_stored_directory + args.dataset_name + "_param"):
+                os.makedirs(args.param_stored_directory + args.dataset_name + "_param")
             model_name = "{}epoch_{}_f1_{}.model".format(args.param_stored_directory + args.dataset_name + "_param/", idx, current_score)
             torch.save(model.state_dict(), model_name)
             best_dev = current_score
