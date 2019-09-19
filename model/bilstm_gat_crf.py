@@ -76,7 +76,7 @@ class BLSTM_GAT_CRF(nn.Module):
         self.dropout = self.dropout.cuda()
         self.droplstm = self.droplstm.cuda()
         self.gaz_dropout = self.gaz_dropout.cuda()
-        if self.strategy == "v" or "n":
+        if self.strategy == "v" or self.strategy == "n":
             self.weight1.data = self.weight1.data.cuda()
             self.weight2.data = self.weight2.data.cuda()
             self.weight3.data = self.weight3.data.cuda()
