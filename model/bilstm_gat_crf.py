@@ -82,7 +82,7 @@ class BLSTM_GAT_CRF(nn.Module):
             self.weight3.data = self.weight3.data.cuda()
             self.weight4.data = self.weight4.data.cuda()
         else:
-            self.weight.data = self.weight.data.cuda()
+            self.weight = self.weight.cuda()
 
     def reset_parameters(self):
         nn.init.orthogonal_(self.lstm.weight_ih_l0)
