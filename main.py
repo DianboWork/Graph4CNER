@@ -158,7 +158,6 @@ def train(data, model, args):
         print("Epoch: %s/%s" % (idx, args.max_epoch))
         optimizer = lr_decay(optimizer, idx, args.lr_decay, args.lr)
         instance_count = 0
-        batch_loss = 0
         sample_loss = 0
         total_loss = 0
         random.shuffle(data.train_ids)
@@ -181,7 +180,6 @@ def train(data, model, args):
             instance_count += 1
             sample_loss += loss.item()
             total_loss += loss.item()
-            batch_loss += loss
             loss.backward()
             if args.use_clip:
                 torch.nn.utils.clip_grad_norm_(model.parameters(), args.clip)
