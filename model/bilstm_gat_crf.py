@@ -10,7 +10,7 @@ from torch.nn.utils.rnn import pad_packed_sequence, pack_padded_sequence
 class BLSTM_GAT_CRF(nn.Module):
     def __init__(self, data, args):
         super(BLSTM_GAT_CRF, self).__init__()
-        print("build batched BLSTM_GAT_CRF...")
+        print("build BLSTM_GAT_CRF model...")
         self.name = "BLSTM_GAT_CRF"
         self.strategy = args.strategy
         self.char_emb_dim = data.char_emb_dim
