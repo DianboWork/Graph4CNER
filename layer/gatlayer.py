@@ -56,18 +56,16 @@ class GAT(nn.Module):
             
     def forward(self, x, adj):
         x = F.dropout(x, self.dropout, training=self.training)
-        if self.layer == 2:
-            x = torch.cat([att(x, adj) for att in self.attentions], dim=2)
-            x = F.dropout(x, self.dropout, training=self.training)
-            x = F.elu(self.out_att(x, adj))
-            return F.log_softmax(x, dim=2)
-        elif self.layer == 1:
+        if self.layer == 1:
             x = torch.stack([att(x, adj) for att in self.attentions], dim=2)
             x = x.sum(2)
             x = F.dropout(x, self.dropout, training=self.training)
             return F.log_softmax(x, dim=2)
         else:
-            pass
+            x = torch.cat([att(x, adj) for att in self.attentions], dim=2)
+            x = F.dropout(x, self.dropout, training=self.training)
+            x = F.elu(self.out_att(x, adj))
+            return F.log_softmax(x, dim=2)
 
 
 
