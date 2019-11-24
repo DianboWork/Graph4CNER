@@ -50,7 +50,7 @@ Usage：
 
 :two: Modify the `run_main.py` by adding your train/dev/test file directory.
 
-:three: `sh run_main.py`. Note that the default hyperparameters may not be the optimal hyperparameters, and you need to adjust these.
+:three: `sh run_main.py`. Note that the default hyperparameters is may not be the optimal hyperparameters, and you need to adjust these.
 
 :four: Enjoy it! :smile:
 
