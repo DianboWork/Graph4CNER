@@ -48,11 +48,15 @@ Usage：
 ====
 :one: Download the character embeddings and word embeddings and put them in the `data/embeddings` folder.
 
-:two: Modify the `run_main.py` by adding your train/dev/test file directory.
+:two: Modify the `run_main.sh` by adding your train/dev/test file directory.
 
-:three: `sh run_main.py`. Note that the default hyperparameters is may not be the optimal hyperparameters, and you need to adjust these.
+:three: `sh run_main.sh`. Note that the default hyperparameters is may not be the optimal hyperparameters, and you need to adjust these.
 
 :four: Enjoy it! :smile:
+
+Result：
+====
+For WeiboNER dataset，using the default hyperparameters in `run_main.sh` can achieve the state-of-art results (Dev F1: 66.12%; Test F1: 66.84%).  :muscle:
 
 Speed：
 ===
