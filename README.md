@@ -39,10 +39,10 @@ Input is in CoNLL format (We use BIO tag scheme), where each character and its l
 
 Pretrained Embeddings:
 ====
-Character embeddings (gigaword_chn.all.a2b.uni.ite50.vec) can be downloaded in [Google Drive](https://drive.google.com/file/d/1_Zlf0OAZKVdydk7loUpkzD2KPEotUE8u/view?usp=sharing) or [Baidu Pan](https://pan.baidu.com/s/1pLO6T9D)
+Character embeddings (gigaword_chn.all.a2b.uni.ite50.vec) can be downloaded in [Google Drive](https://drive.google.com/file/d/1_Zlf0OAZKVdydk7loUpkzD2KPEotUE8u/view?usp=sharing) or [Baidu Pan](https://pan.baidu.com/s/1pLO6T9D).
 
 Word embeddings (sgns.merge.word) can be downloaded in [Google Drive](https://drive.google.com/file/d/1Zh9ZCEu8_eSQ-qkYVQufQDNKPC4mtEKR/view) or
-[Baidu Pan](https://pan.baidu.com/s/1luy-GlTdqqvJ3j-A4FcIOw)
+[Baidu Pan](https://pan.baidu.com/s/1luy-GlTdqqvJ3j-A4FcIOw).
 
 Usage：
 ====
