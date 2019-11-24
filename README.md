@@ -56,7 +56,7 @@ Usage：
 
 Result：
 ====
-For WeiboNER dataset，using the default hyperparameters in `run_main.sh` can achieve the state-of-art results (Dev F1: 66.12%; Test F1: 66.84%).  :muscle:
+For WeiboNER dataset，using the default hyperparameters in `run_main.sh` can achieve the state-of-art results (Dev F1: 66.12%; Test F1: 66.84%). :sunglasses:
 
 Speed：
 ===
