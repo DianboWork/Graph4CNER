@@ -56,7 +56,7 @@ Usage：
 
 Result：
 ====
-For WeiboNER dataset，using the default hyperparameters in `run_main.sh` can achieve the state-of-art results (Dev F1: 66.12%; Test F1: 66.84%). :sunglasses:
+For WeiboNER dataset，using the default hyperparameters in `run_main.sh` can achieve the state-of-art results (Test F1: 66.66%). Model parameters can be download in [Baidu Pan](https://pan.baidu.com/s/1ysy_eNF0oYJwjXiy4x7gtQ) (key: bg3q):sunglasses:
 
 Speed：
 ===
