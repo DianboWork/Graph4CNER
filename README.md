@@ -1,7 +1,6 @@
 # Leverage Lexical Knowledge for Chinese Named Entity Recognition via Collaborative Graph Network
 [![GitHub stars](https://img.shields.io/github/stars/DianboWork/Graph4CNER?style=flat-square)](https://github.com/DianboWork/Graph4CNER/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/DianboWork/Graph4CNER?style=flat-square&color=blueviolet)](https://github.com/DianboWork/Graph4CNER/network/members)
-[![HitCount](http://hits.dwyl.io/zxlzr/https://githubcom/DianboWork/Graph4CNER.svg)](http://hits.dwyl.io/zxlzr/https://githubcom/DianboWork/Graph4CNER)
 
 Source code for [Leverage Lexical Knowledge for Chinese Named Entity Recognition via Collaborative Graph Network](https://www.aclweb.org/anthology/D19-1396.pdf) in EMNLP 2019. If you use this code or our results in your research, we would appreciate it if you cite our paper as following:
 
